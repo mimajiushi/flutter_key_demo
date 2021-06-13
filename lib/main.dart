@@ -18,6 +18,8 @@ class PositionedTilesState extends State<PositionedTiles> {
   void initState() {
     super.initState();
     tiles = [
+      StatefulColorfulTile(),
+      StatefulColorfulTile(),
       // StatefulColorfulTile(key: UniqueKey()),
       // StatefulColorfulTile(key: UniqueKey()),
       StatelessColorfulTile(),
