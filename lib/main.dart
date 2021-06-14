@@ -18,8 +18,8 @@ class PositionedTilesState extends State<PositionedTiles> {
   void initState() {
     super.initState();
     tiles = [
-      StatefulColorfulTile(),
-      StatefulColorfulTile(),
+      // StatefulColorfulTile(),
+      // StatefulColorfulTile(),
       // StatefulColorfulTile(key: UniqueKey()),
       // StatefulColorfulTile(key: UniqueKey()),
       StatelessColorfulTile(),
@@ -36,8 +36,8 @@ class PositionedTilesState extends State<PositionedTiles> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.sentiment_very_satisfied),
-        // child: Icon(Icons.sentiment_very_dissatisfied),
+        // child: Icon(Icons.sentiment_very_satisfied),
+        child: Icon(Icons.sentiment_very_dissatisfied),
         onPressed: swapTiles,
       ),
     );
